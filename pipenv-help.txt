@@ -1,0 +1,12 @@
+
+#To install pipenv
+sudo -H pip install -U pipenv
+#To create virtualenv & install in created env
+pipenv install
+#To activate virtual environment
+pipenv shell
+#To deactivate
+exit
+
+#it will  take care of formating
+pipenv install --dev autopep8
